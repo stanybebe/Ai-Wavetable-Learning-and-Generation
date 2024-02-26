@@ -74,7 +74,7 @@ def main():
     # Train the model
     model = train_model(X_train, y_train)
 
-  #seed the model with random noise
+  #seed the model with random noise and make 20 wavetables
     for i in range(20):
         pred = []
         for i in range(len(file_paths)):
